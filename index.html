@@ -800,7 +800,7 @@ if(jaivid){
 (function(){
   const w = document.getElementById('wheely');
   if(!w) return;
-  const TILT = 4;                                     // level the wheel art (source png is rotated)
+  const TILT = 6;                                     // level the wheel art (source png is rotated)
   let rot = TILT, spinning = false, actx = null, lastSeg = -1, anim = null;
   w.style.transform = `rotate(${TILT}deg)`;
   function tick(){
